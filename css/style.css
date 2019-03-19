@@ -121,6 +121,7 @@ h5 small.green, .category span.green {
   bottom: 0;
   width: 380px;
   padding: 30px 0;
+  background-color: #ffffbb;
 }
 
 .header-container .logo img {
@@ -146,7 +147,7 @@ h5 small.green, .category span.green {
 
 .main-container .page-title img{
   margin-bottom: 10px;
-  margin-left: -1px;
+  margin-left: 10px;
   padding: 20px;
   width: 30%;
 }
@@ -205,6 +206,9 @@ h5 small.green, .category span.green {
   overflow: hidden;
 }
 
+.project-wrap .work img{
+  padding-left: 20px;
+}
 .project-wrap .layout-6 h3 {
   margin-top: 10px;
   font-size: 1.8rem;
@@ -245,6 +249,10 @@ h5 small.green, .category span.green {
   float: left;
   display: block;
   width: 50%;
+}
+
+.about-wrap {
+  padding-left: 30px;
 }
 
 .about-wrap h2:before {
