@@ -1,73 +1,3 @@
-img,
-object,
-embed {
-  max-width: 100%;
-  height: auto;
-  padding-bottom: 10px;
-}
-
-object,
-embed {
-  height: 100%;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-justify {
-  text-align: justify;
-}
-
-.hide {
-  display: none;
-}
-
-img {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-textarea {
-  height: auto;
-  min-height: 50px;
-}
-
-select {
-  width: 100%;
-}
-
-i {
-  font-style: normal;
-}
-
-ul {
-  margin: 0;
-}
-
-ul li {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-
 body {
   letter-spacing: .1em;
   color: black;
@@ -79,6 +9,24 @@ body {
 
 body.body-fixed {
   padding-top: 250px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+ul {
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 a {
